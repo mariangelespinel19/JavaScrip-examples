@@ -1,0 +1,30 @@
+let pc1 = {
+    nombre: "MariPC",
+    procesador: "Intel Core I7",
+    ram:"16GB",
+    espacio: "1TB"
+};
+
+let nombre = pc1["nombre"];
+let procesador = pc1["procesador"];
+let ram = ["ram"];
+let espacio = pc1["espacio"];
+
+frase = `El nombre de mi PC es: <b>${nombre}</b> <br> 
+         El procesador es: <b>${procesador}</b> <br>
+         La memoria ram es: <b>${ram}</b> <br>
+         El espacio en disco es de <b>${espacio}</b>`;
+
+
+document.write(frase)
+
+
+// EJERCICIO #2
+let numero = 0;
+
+if(numero < 10) {
+    
+    numero++;
+    document.write(numero)
+
+}
